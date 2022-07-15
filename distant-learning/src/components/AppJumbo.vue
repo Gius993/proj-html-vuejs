@@ -26,7 +26,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+	
+	/* eslint-disable */
 	.container{
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-position: center;
 		background-image: url('../assets/img/home-3-hero-bg.jpg');
 		color: white;
 		text-align: center;
