@@ -1,18 +1,20 @@
 <template>
   <div id="app">
    
-    <!-- <HelloWorld /> -->
+   
+    <AppHeader />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+
+import AppHeader from './components/AppHeader.vue'
 
 export default {
   name: 'App',
-  // components: {
-  //   // HelloWorld
-  // }
+  components: {
+    AppHeader
+  }
 }
 </script>
 
