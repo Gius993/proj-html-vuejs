@@ -23,11 +23,23 @@
 			</div>
 
 			<div class="image width-class">
-
+				<img src="../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="img">
+				<img  class="posizione" src="../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="img2">
 			</div>
 		</div>
 		<div class="dati">
-
+			<div class="number">
+				<div class="color-a"><strong>129+</strong></div>
+				<div class="color-b">ENROLED LEARNS</div>
+			</div>
+			<div class="number">
+				<div class="color-a"><strong>80</strong></div>
+				<div class="color-b">FINISHED SESSIONS</div>
+			</div>
+			<div class="number">
+				<div class="color-a"><strong>4%</strong></div>
+				<div class="color-b">SATISFACTION RATE</div>
+			</div>
 		</div>
   </div>
 </template>
@@ -49,11 +61,9 @@ export default {
 		justify-content: center;
 	}
 	.width-class{
-		width: calc(100% / 2);
-		height: 500px;
+		// width: calc(100% / 2);
 		width: 500px;
-		// background-color: aquamarine;
-		border: 1px solid red;
+	
 	}
 	.text{
 		padding: 80px;
@@ -85,5 +95,33 @@ export default {
 				
 			}
 
+	}
+	.image{
+		display: flex;
+		align-items: center;
+		position: relative;
+		.posizione{
+			width: 150px;
+			position:absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+	.dati{
+		display: flex;
+		justify-content: center;
+		.number{
+			margin-left: 50px;
+			.color-a{
+				color: #1fad95;
+				font-size: 50px;
+				text-align: center;
+			}
+			.color-b{
+				margin-top: 10px;
+				color: #6c6c6b;
+			}
+		}
+	
 	}
 </style>
