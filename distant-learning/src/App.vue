@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
-   
-   
+  <div id="app"> 
     <AppHeader />
   </div>
 </template>
@@ -19,5 +17,6 @@ export default {
 </script>
 
 <style lang="scss">
-
+   @import './assets/style/common.scss';
+    @import  './assets/style/variables.scss';
 </style>
