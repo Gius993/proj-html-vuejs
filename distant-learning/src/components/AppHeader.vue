@@ -26,12 +26,10 @@
 					<div>
 						<input type="text">
 					</div>
-					<div>
-
+					<div class="lente">
+						<img src="../assets/img/search.svg" alt="search">
 					</div>
-					<div>
-
-					</div>
+				
 				</div>
 			</div>
 		</div>
@@ -110,11 +108,28 @@
 	margin-right: 10px;
 }
 .logo{
-	width: 150px;	
+	width: 120px;	
+}
+.lente{
+	width: 15px;
+	padding: 1px;
+}
+
+.search{
+	display: flex;
+	align-items: center;
+	background-color: #e2e2e0;
+	input{
+		background-color: #e2e2e0;
+		border: none;
+		resize: none;
+		outline: none;
+		padding: 2px;
+	}
 }
 .container-header{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 	background-color: aqua;
 	display: flex;
