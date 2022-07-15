@@ -1,6 +1,7 @@
 <template>
   <div id="app"> 
     <AppHeader />
+    <AppJumbo />
     <AppMain />
   </div>
 </template>
@@ -9,11 +10,13 @@
 
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppJumbo from './components/AppJumbo.vue';
 
 export default {
   name: 'App',
   components: {
     AppHeader,
+    AppJumbo,
     AppMain
   }
 }

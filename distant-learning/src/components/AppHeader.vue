@@ -130,8 +130,6 @@
 .container-header{
 	padding-top: 15px;
 	padding-bottom: 15px;
-
-	background-color: aqua;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
