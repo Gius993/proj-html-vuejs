@@ -125,6 +125,7 @@
 		resize: none;
 		outline: none;
 		padding: 2px;
+		color: rgba(8, 1, 1, 0.541);
 	}
 }
 .container-header{
