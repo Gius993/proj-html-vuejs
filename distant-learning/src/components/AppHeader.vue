@@ -40,7 +40,7 @@
 
 <script>
 	export default {
-		name: "PageHeader",
+		name: "AppHeader",
 		data(){
 			return{
 				menuList:[
