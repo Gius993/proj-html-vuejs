@@ -1,15 +1,16 @@
 <template>
   <div class="main">
-    
+      <CardAtipe />
   </div>
 </template>
 
 <script>
+import CardAtipe from './CardAtipe.vue'
 export default {
   name: 'AppMain',
-  // props: {
-  //   msg: String
-  // }
+  components: {
+    CardAtipe
+  }
 }
 </script>
 
@@ -17,8 +18,8 @@ export default {
 <style scoped lang="scss">
   .main{
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
   }
 </style>
