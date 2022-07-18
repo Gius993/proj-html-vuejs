@@ -1,15 +1,18 @@
 <template>
   <div class="main">
       <CardAtipe />
+      <CardBtipe />
   </div>
 </template>
 
 <script>
-import CardAtipe from './CardAtipe.vue'
+import CardAtipe from './CardAtipe.vue';
+import CardBtipe from './CardBtipe.vue';
 export default {
   name: 'AppMain',
   components: {
-    CardAtipe
+    CardAtipe,
+    CardBtipe
   }
 }
 </script>
