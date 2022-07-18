@@ -30,17 +30,20 @@
 			<div class="card">
 				<div class="image">
 					<img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="img">
+					<div class="free">
+						FREE
+					</div>
 				</div>
 				<div class="text">
 					<div class="price">
-						$40.00
+						$0.00
 					</div>
 					<div class="description">
-						Learning to Write as a Professional Author
+						Customer- centric-info-Tech Strategies
 					</div>
 					<div class="class">
-						<span>20 Leassons</span>
-						<span>50 Student</span>
+						<span>24 Leassons</span>
+						<span>750 Student</span>
 					</div>
 				</div>
 			</div>
@@ -50,14 +53,14 @@
 				</div>
 				<div class="text">
 					<div class="price">
-						$40.00
+						$19.00
 					</div>
 					<div class="description">
-						Learning to Write as a Professional Author
+						Open Programming Coursess for Everyone:Python
 					</div>
 					<div class="class">
-						<span>20 Leassons</span>
-						<span>50 Student</span>
+						<span>17 Leassons</span>
+						<span>62 Student</span>
 					</div>
 				</div>
 			</div>
@@ -78,6 +81,10 @@
 
 			</div>
 		</div>
+		<div class="testo-finale">
+			Control your prefernce setting to get notified appropiate
+			cousess <strong>View all coursess &RightArrow;</strong>
+		</div>
   </div>
 </template>
 
@@ -95,6 +102,19 @@ export default {
 	// /* eslint-disable */
 	.container{
 		width: 100%;	
+	}
+	.free{
+		width: 50px;
+		height: 25px;
+		background-color: #ee7455;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 	.sub-title{
 		font-size: 16px;
@@ -137,6 +157,7 @@ export default {
 			// background-color: blue;
 			// border: 1px solid black;
 			background-color: white;
+			position: relative;
 		}
 		.card:hover{
 			background-color: #e2e2e0;
@@ -181,7 +202,10 @@ export default {
 	border-radius: 50%;
 	margin-right: 15px;
 }
-
+.testo-finale{
+	text-align: center;
+	margin: 20px;
+}
 		// .image{
 		// 	// width: 250px;
 		// }
