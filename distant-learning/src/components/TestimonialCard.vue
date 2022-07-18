@@ -25,14 +25,27 @@
 			<div class="image width-class">
 				<div class="text-a">
 					<div><strong>The MaxCoach team realliy hard to ensure hight level of quality</strong>
-						I am happy with their arrangement of lessons and subject they 
+						<br> am happy with their arrangement of lessons and subject they 
 					</div>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum inventore quis quo at cumque. Labore molestias animi 
 					laboriosam sequi quae! Consequuntur possimus suscipit nisi quaerat fugit repellat atque voluptas?
 
 				</div>
 				<div class="posizione caratteristiche">
-
+					<h3 class="ha">Professional team of specialists and passionate mentors at reach</h3>
+					<p class="hp">Ineed to get a certification for English proficiency and MaxCoach is my best choince.
+						Their tutors are smatrt and professional when dealing with students
+					</p>
+					<div class="flex-fix">
+						<div class="image-c">
+							<img src="../assets/img/testimonial-avata-01.jpg" alt="image">
+													
+						</div>
+						<div class="name">
+							<h3>Madley POndor</h3>
+							<p>/IT specialists</p>
+						</div>
+					</div>
 				</div>		
 				<div class="text-b">
 					<div class="image-c">
@@ -58,18 +71,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-	.information{
-		width: 100%;
+.information{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.flex-fix{
 		display: flex;
-		justify-content: center;
-		padding-top: 50px;
-	}
-	.width-class{
+}
+.width-class{
 		width: calc(100% / 2 - 15%);
 		// height: 500px;		
 		// width: 500px;	
-	}
-	.text{
+}
+.text{
 		padding: 80px;
 		.sub-title{
 			font-size: 16px;
@@ -79,7 +95,7 @@ export default {
 				color:#6c6c6b;
 			}
 		}
-		.title{
+	.title{
 			font-size: 25px;
 			margin-bottom: 20px;
 			span{
@@ -116,15 +132,18 @@ export default {
 		.caratteristiche{
 			width: 120%;
 			height: 75%;
+			padding: 5%;
 			background-color: rgba(255, 255, 255, 0.925);
+			p{
+				margin-top: 20px;
+				margin-bottom: 40px;
+				color:#b5b5b5;
+			}
 		}
 	}
 .text-a{
 	padding: 15px;
-	opacity: 0.4;	
-	div{
-		// margin-bottom: 15px;
-	}
+	opacity: 0.4;		
 }
 .text-b{
 padding-left: 3px;
@@ -134,10 +153,10 @@ bottom: 0px;
 display: flex;
 opacity: 0.4;	
 
-h3{
+.ha{
 	font-size: 15px;
 }
-p{
+.hp{
 	font-size: 10px;
 	color:#747474;
 }
@@ -154,4 +173,5 @@ p{
 	object-fit: cover;
 	}
 }
+
 </style>
