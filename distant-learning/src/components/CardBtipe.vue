@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: 'CardAtipe',
+  name: 'CardBtipe',
   // props: {
   //   msg: String
   // }
