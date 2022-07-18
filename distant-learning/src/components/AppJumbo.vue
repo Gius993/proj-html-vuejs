@@ -54,7 +54,7 @@ export default {
 	}
 	.button{
 		margin-top: 40px;
-		margin-bottom: 50px;
+		// margin-bottom: 50px;
 	}
 	.button a:hover{
 		background-color: #1fad95;

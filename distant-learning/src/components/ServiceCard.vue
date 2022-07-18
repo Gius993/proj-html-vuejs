@@ -74,8 +74,9 @@ export default {
 			align-items: center;
 		}
 		.card{
-			width: 200px;
+			width: calc(100% / 3 - 15%);
 			height: 200px;
+			margin-right: 25px;
 			background-color: blue;
 			border: 1px solid black;
 		}

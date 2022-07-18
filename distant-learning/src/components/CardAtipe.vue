@@ -59,6 +59,7 @@ export default {
 		width: 100%;
 		display: flex;
 		justify-content: center;
+		padding-top: 50px;
 	}
 	.width-class{
 		// width: calc(100% / 2);
