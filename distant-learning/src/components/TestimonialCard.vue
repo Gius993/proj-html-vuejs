@@ -23,9 +23,26 @@
 			</div>
 
 			<div class="image width-class">
+				<div class="text-a">
+					<div><strong>The MaxCoach team realliy hard to ensure hight level of quality</strong>
+						I am happy with their arrangement of lessons and subject they 
+					</div>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum inventore quis quo at cumque. Labore molestias animi 
+					laboriosam sequi quae! Consequuntur possimus suscipit nisi quaerat fugit repellat atque voluptas?
+
+				</div>
 				<div class="posizione caratteristiche">
 
 				</div>		
+				<div class="text-b">
+					<div class="image-c">
+						<img src="../assets/img/testimonial-avata-02.jpg" alt="inmg">
+					</div>
+					<div class="name">
+						<h3>Mina Hollace</h3>
+						<p>/Freelancer</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	
@@ -87,7 +104,7 @@ export default {
 		// display: flex;
 		// align-items: center;
 		height: 500px;
-		background-color: #1fad95;
+		// opacity: 0.6;	
 		position: relative;
 		.posizione{
 			position:absolute;
@@ -99,8 +116,42 @@ export default {
 		.caratteristiche{
 			width: 120%;
 			height: 75%;
-			background-color: blueviolet;
+			background-color: rgba(255, 255, 255, 0.925);
 		}
 	}
+.text-a{
+	padding: 15px;
+	opacity: 0.4;	
+	div{
+		// margin-bottom: 15px;
+	}
+}
+.text-b{
+padding-left: 3px;
+padding-right: 3px;
+position: absolute;
+bottom: 0px;
+display: flex;
+opacity: 0.4;	
 
+h3{
+	font-size: 15px;
+}
+p{
+	font-size: 10px;
+	color:#747474;
+}
+}
+.image-c{
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+	border-radius: 50%;
+	overflow: hidden;
+	img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+}
 </style>

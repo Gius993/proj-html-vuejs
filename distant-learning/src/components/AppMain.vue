@@ -35,7 +35,7 @@ export default {
     // display: flex;
     // flex-direction: column;
     // align-items: center;
-    background-color: #fff;
+    background-color: #fdfdfd;;
   }
   .main-grey{
     background-color: #f5f5f5;
