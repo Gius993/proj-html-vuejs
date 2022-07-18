@@ -23,8 +23,9 @@
 			</div>
 
 			<div class="image width-class">
-				
-				<!-- <img  class="posizione" src="../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="img2"> -->
+				<div class="posizione caratteristiche">
+
+				</div>		
 			</div>
 		</div>
 	
@@ -47,9 +48,9 @@ export default {
 		padding-top: 50px;
 	}
 	.width-class{
-		// width: calc(100% / 2);
-		width: 500px;
-	
+		width: calc(100% / 2 - 15%);
+		// height: 500px;		
+		// width: 500px;	
 	}
 	.text{
 		padding: 80px;
@@ -85,12 +86,20 @@ export default {
 	.image{
 		// display: flex;
 		// align-items: center;
+		height: 500px;
+		background-color: #1fad95;
 		position: relative;
 		.posizione{
-			width: 150px;
 			position:absolute;
-			top: 0;
-			right: 0;
+			top: 50%;
+			right: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.caratteristiche{
+			width: 120%;
+			height: 75%;
+			background-color: blueviolet;
 		}
 	}
 
