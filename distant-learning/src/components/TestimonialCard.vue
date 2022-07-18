@@ -123,6 +123,9 @@ export default {
 		// opacity: 0.6;	
 		position: relative;
 		.posizione{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
 			position:absolute;
 			top: 50%;
 			right: 50%;
@@ -133,7 +136,7 @@ export default {
 			width: 120%;
 			height: 75%;
 			padding: 5%;
-			background-color: rgba(255, 255, 255, 0.925);
+			background-color: rgba(250, 250, 250, 0.925);
 			p{
 				margin-top: 20px;
 				margin-bottom: 40px;
