@@ -5,6 +5,7 @@
       <CardBtipe />
       <ServiceCard />
     </div>
+    <TestimonialCard />
   </div>
 </template>
 
@@ -12,12 +13,14 @@
 import CardAtipe from './CardAtipe.vue';
 import CardBtipe from './CardBtipe.vue';
 import ServiceCard from './ServiceCard.vue';
+import TestimonialCard from './TestimonialCard.vue'
 export default {
   name: 'AppMain',
   components: {
     CardAtipe,
     CardBtipe,
-    ServiceCard
+    ServiceCard,
+    TestimonialCard
   }
 }
 </script>
