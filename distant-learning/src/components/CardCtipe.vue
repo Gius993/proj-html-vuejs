@@ -13,14 +13,14 @@
 					</div>
 					<div class="title">
 						<h2>
-							Upgrade Your Skills
-							<span>Upgrade Your Life</span>
-							
+							We're Here To
+							<span>Transorm</span>
+							You!
 						</h2>
 					</div>
 					<div class="testo">					
-							Opening up more opportunites in front of youy to get the ticket to more enjoyable door in life. Getting equipped 
-							with new skills for new set of insights into yoit career MaxCoach accompany learnes in every stage of learning
+							As learners,people can enjoy great companionship from MaxCoach mentors and educators.We help you develolop
+							and grow at your beast.
 							<div class="button"><a href="">Get Free Guide</a></div>	
 					</div>
 				</div>
@@ -117,6 +117,10 @@ export default {
 	width: max-content;
 	border: 1px solid #1fad95;
 	border-radius: 5px;
-	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 55px;
+	padding-right: 55px;
+	font-size: 10px;
 }
 </style>

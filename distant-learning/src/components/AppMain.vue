@@ -7,6 +7,9 @@
     </div>
     <TestimonialCard />
     <CardCtipe />
+    <div class="main-grey">
+        <CardDtipe />
+    </div>
   </div>
 </template>
 
@@ -16,6 +19,7 @@ import CardBtipe from './CardBtipe.vue';
 import ServiceCard from './ServiceCard.vue';
 import TestimonialCard from './TestimonialCard.vue'
 import CardCtipe from './CardCtipe.vue'
+import CardDtipe from './CardDtipe.vue'
 export default {
   name: 'AppMain',
   components: {
@@ -23,7 +27,8 @@ export default {
     CardBtipe,
     ServiceCard,
     TestimonialCard,
-    CardCtipe
+    CardCtipe,
+    CardDtipe
   }
 }
 </script>
