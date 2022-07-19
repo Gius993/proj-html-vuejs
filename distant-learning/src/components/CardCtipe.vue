@@ -68,24 +68,24 @@ export default {
 		width: 500px;
 	
 	}
-	.text{
-		padding: 80px;
-		.sub-title{
-			font-size: 16px;
-			color: #e2e2e0;
-			margin-bottom: 20px;
-			span{
-				color:#6c6c6b;
+.text{
+	padding: 80px;
+	.sub-title{
+		font-size: 16px;
+		color: #e2e2e0;
+		margin-bottom: 20px;
+		span{
+			color:#6c6c6b;
 			}
+	}
+	.title{
+		font-size: 25px;
+		margin-bottom: 20px;
+		span{
+			color: #1fad95;
 		}
-		.title{
-			font-size: 25px;
-			margin-bottom: 20px;
-			span{
-				color: #1fad95;
-			}
 		}
-			.testo{
+		.testo{
 				
 				color: #6c6c6b;
 				padding: 10px;
