@@ -103,9 +103,10 @@ export default {
 		position: relative;
 		.posizione{
 			width: 150px;
+			border-radius: 10px;
 			position:absolute;
 			top: 0;
-			right: 0;
+			right: -50px;
 		}
 	}
 	.dati{
