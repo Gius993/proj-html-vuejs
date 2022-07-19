@@ -125,41 +125,38 @@ export default {
 			color:#6c6c6b;
 		}
 	}
-	.title{
-			font-size: 25px;
-			text-align: center;
+.title{
+	font-size: 25px;
+	text-align: center;
 			
-			span{
-				color: #1fad95;
-			}
-		}
-			.testo{
+	span{
+		color: #1fad95;
+	}
+}
+.testo{
 				
-				color: #6c6c6b;
-				padding: 10px;
-				div{
+	color: #6c6c6b;
+	padding: 10px;
+	div{
 					margin-top: 40px;
-				}
-				strong{
-				color: #000000;
-				}
+	}
+	strong{
+	color: #000000;
+	}
 				
-		}
-		.card-container{
-			margin-top: 50px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		.card{
-			width: calc(100% / 3 - 15%);
-			// height: 200px;
-			margin-right: 25px;
-			// background-color: blue;
-			// border: 1px solid black;
-			background-color: white;
-			position: relative;
-		}
+}
+.card-container{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	width: calc(100% / 3 - 15%);
+	margin-right: 25px;			
+	background-color: white;
+	position: relative;
+}
 		.card:hover{
 			background-color: #e2e2e0;
 		}
@@ -207,7 +204,5 @@ export default {
 	text-align: center;
 	margin: 20px;
 }
-		// .image{
-		// 	// width: 250px;
-		// }
+
 </style>
