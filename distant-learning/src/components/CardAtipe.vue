@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-a">
 		<div class="information">
 			<div class="text width-class">
 				<div class="sub-title">
@@ -19,6 +19,9 @@
 						deadline.we're opening new classes e
 						beginning of each month
 						<div>have questions? <a href=""><strong>Get Free Guide</strong></a></div>	
+				</div>
+				<div class="style-c">
+					<img src="../assets/img/maxcoach-shape-02.png" alt="style">
 				</div>
 			</div>
 
@@ -61,6 +64,16 @@ export default {
 		justify-content: center;
 		padding-top: 50px;
 	}
+	.container-a{
+		padding-bottom: 100px;
+
+	}
+	.style-c{
+		width: 100px;
+		position: absolute;
+		bottom: 10%;
+		left: 10%;
+	}
 	.width-class{
 		// width: calc(100% / 2);
 		width: 500px;
@@ -68,6 +81,7 @@ export default {
 	}
 	.text{
 		padding: 80px;
+		position: relative;
 		.sub-title{
 			font-size: 16px;
 			color: #e2e2e0;

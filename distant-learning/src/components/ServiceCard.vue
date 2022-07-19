@@ -102,7 +102,8 @@ export default {
 	// /* eslint-disable */
 	.container{
 		width: 100%;	
-		padding-bottom: 15px;
+		padding-bottom: 150px;
+		padding-top: 150px;
 	}
 	.free{
 		width: 50px;

@@ -80,8 +80,12 @@ export default {
 	// /* eslint-disable */
 	.container{
 		width: 100%;	
-		padding-bottom: 15px;
+		padding-bottom: 150px;
 		padding-top: 150px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
 	}
 
 	.sub-title{
@@ -122,6 +126,7 @@ export default {
 			width: calc(100% / 3 - 15%);
 			margin-right: 25px;		
 			background-color: white;
+			
 		}
 		.card:hover{
 			background-color: #e2e2e0;

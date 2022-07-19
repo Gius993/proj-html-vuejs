@@ -6,6 +6,12 @@
 				<img src="../assets/img/home-3-team-image.png" alt="img">
 				<!-- <img  class="posizione" src="../assets/img/icon-youtube-play.png" alt="img2"> -->
 			</div>
+				<div class="style-a">
+					<img src="../assets/img/maxcoach-shape-05.png" alt="style">
+				</div>
+				<div class="style-b">
+					<img src="../assets/img/maxcoach-shape-07.png" alt="style">
+				</div>
 				<div class="text width-class">
 					<div class="sub-title">
 						How we Wordk
@@ -42,8 +48,20 @@ export default {
 <style scoped lang="scss">
 	.information{
 		width: 100%;
+		padding-bottom: 60px;
 		display: flex;
 		justify-content: center;
+		position: relative;
+	}
+	.style-a{
+		width: 100px;
+		position: absolute;
+		bottom: 0;
+		left: 25%;
+	}.style-b{
+		width: 100px;
+		position: absolute;
+		right: 20%;
 	}
 	.width-class{
 		// width: calc(100% / 2);
